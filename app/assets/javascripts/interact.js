@@ -2,6 +2,7 @@ function changeColor(box) {
   console.log(box);
   // .style["CSS-ATTRIBUTE"] can change the styling of the element
   box.style["background-color"] = "blue";
+  document.body.style.background = "yellow";
 }
 
 function addText(box) {
@@ -9,7 +10,7 @@ function addText(box) {
 }
 
 function addClass(box) {
-  box.className += " light";
+  box.className = box.className + " light";
 }
 
 function readText() {
